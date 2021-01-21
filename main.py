@@ -13,6 +13,6 @@ async def on_message(message):
   if message.author == client.user:
     return
   if message.content.startswith('!'):
-    await message.channle.send('Event')
+    await message.channle.send('Event Will be created')
 
 client.run(os.getenv('TOKEN'))
